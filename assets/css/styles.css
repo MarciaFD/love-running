@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-gi    border:none ;
+    border: none;
 
 }
 
@@ -33,21 +33,26 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu li{
-    float: right;
-    list-style: none;
-    margin-right: 30px;
+
+#menu, #logo{
+    line-height: 75px;
 }
 
-
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;}
 
 #menu a{
     text-decoration: none;
     color: inherit;
 }
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background-image: url(../images/hero-image.webp ) no repeat center center;
 
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
 }
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
