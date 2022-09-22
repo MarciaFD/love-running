@@ -205,7 +205,7 @@ hr{
     overflow: hidden;
 }
 
-#times div{
+#times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -214,12 +214,14 @@ hr{
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
-    box-sizing: border-box;    
+    box-sizing: border-box; 
+
 }
 
 #times h2{
     color: #fafafa;
 }
+
 
 /* footer */
 
@@ -281,13 +283,6 @@ footer{
     clear: both;
     width: 100%;
     float: left;
-    padding: 0;
-}
-
-#times > div {
-    width: 100%;
-    clear: both;
-    height: 150px;
     padding: 0;
 }
 
